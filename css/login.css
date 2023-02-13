@@ -1,4 +1,9 @@
 
+body{
+    background-image: linear-gradient(to right, rgb(99, 102, 134) , rgb(107, 107, 60));
+}
+
+
 .login-page{
     height: 100vh;
 }
@@ -16,6 +21,7 @@
     margin-left: auto;
     margin-right: auto;
     height: 400px;
+    background-color: wheat;
 
 
 }

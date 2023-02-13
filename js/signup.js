@@ -1,7 +1,7 @@
 
 let userName=[]
 
-const password=[]
+let password=[]
 
 
 
@@ -114,10 +114,10 @@ document.getElementById("signup-btn").addEventListener('click',function signup()
     let passWord=passwordSignup.value
     let signupCompleteSection=document.getElementById("passwordtext")
 
-    console.log(typeof(username))
+
     userName.push(username)
     password.push(passWord)
-
+    console.log((userName))
     let signupComplete=document.createElement("p")
 
     signupComplete.innerHTML=`Signup Complete!!go back to Login page <a href='login.html'>login</a>`

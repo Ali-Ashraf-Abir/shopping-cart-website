@@ -1,7 +1,6 @@
-const USERNAME="Abir"
-const PASSWORD="01731292533"
+const USERNAME=["Abir"]
+const PASSWORD=["01731292533"]
 
-console.log(password)
 
 document.getElementById("password").addEventListener('keyup',function(){
 
@@ -39,9 +38,18 @@ document.getElementById("login-btn").addEventListener("click",function(){
     let inputPasswordValue=inputPassword.value
 
 
-    if(input1UsernameValue==USERNAME && inputPasswordValue==PASSWORD){
-        console.log("success")
-    }
 
+    for (let i=0;i<=userName.length;i++){
+        if(input1UsernameValue==USERNAME[i] && inputPasswordValue==PASSWORD[i]){
+            location.href="index.html"
+        }
+
+            if (input1UsernameValue==userName[i] && inputPasswordValue==password[i]){
+
+                console.log("success")
+            }
+
+
+        }
 
 })
